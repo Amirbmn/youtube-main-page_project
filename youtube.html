@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>youtube.com</title>
+
+    <style>
+      .man-photo,
+      .fish {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 6px;
+        vertical-align: top;
+      }
+      /* .video-container{
+display: inline-block;
+vertical-align: top;
+margin-top: 25px;
+margin-left: 40px;
+} */
+
+      .searchbox {
+      
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 0px;
+       
+
+      }
+      .title {
+        margin-top: 0px;
+        margin-bottom: 4px;
+        font-family: Arial;
+        width: 300px;
+        font-size: 16px;
+      }
+      .channel-name {
+        color: #606060;
+        font-family: Arial;
+        font-size: 11px;
+        margin-bottom: 1px;
+        margin-top: 4px;
+      }
+      .video-info {
+        color: #606060;
+        font-family: Arial;
+        font-size: 11px;
+        margin-top: 3px;
+      }
+
+
+.menu-symbol {
+  cursor: pointer;
+
+  display: inline-block;
+  width: 30px;
+  margin-right: 10px;
+
+}
+
+.menu-button{
+border: none;
+background-color: white;
+cursor: pointer;
+}
+
+
+.youtubeLogo {
+  margin-left: 50px;
+  width: 100px;
+ 
+  
+  cursor: pointer;
+}
+     
+
+    .microphone {
+  width: 60px;
+  display: inline-block;
+  vertical-align: middle;
+}
+     
+.microphone-button{
+  border: none;
+  cursor: pointer;
+  background-color: white; 
+}
+
+
+
+
+      .camera {
+        width: 20px;
+        display: inline-block;
+      
+        vertical-align: middle;}
+     .camera-button{
+      border: none;
+      cursor: pointer;
+      background-color: white;
+     }
+      
+      .bell {
+        width: 20px;
+        display: inline-block;
+       
+        vertical-align: middle;
+        margin-left: 25px;
+      }
+
+.bell-button{
+  border: none;
+background-color: white;
+cursor: pointer;
+}
+
+      .account {
+        width: 36px;
+        border-radius: 18px;
+        margin-left: 25px;
+        vertical-align: middle;
+      }
+
+.account-button{
+  border: none;
+background-color: white;
+cursor: pointer;
+}
+
+ .first-col {
+  display: flex;
+  align-items: top;
+   
+      }
+    
+      .middle-col {
+        margin-top: 0px;
+       
+      }
+
+      
+.third-col{
+  justify-self: end;
+  margin-top:0px ;
+    margin-left: 285px
+    
+}
+.header{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  position:fixed;
+background-color: white;
+}
+
+.body{
+  padding-top: 70px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div
+      class="header"
+      style="display: grid; grid-template-columns: 1fr 1fr 1fr "
+    >
+      <div class="first-col">
+        <div>
+          <button class="menu-button"><img class="menu-symbol" src="menu.jpg" alt="menu"></button>
+        </div>
+
+        <img class="youtubeLogo" src="youtubeLogo.png" alt="loading" />
+      </div>
+      <div class="middle-col">
+        <input class="searchbox" type="text" placeholder="search" />
+
+       <button class="microphone-button"> <img class="microphone" src="microphone.png" alt="loading" /></button>
+      </div>
+      <div class="third-col">
+        <button class="camera-button"><img class="camera" src="camera.jfif" alt="camera" /></button>
+       <button class="bell-button"> <img class="bell" src="bell.png" alt="bell" /></button>
+        <button class="account-button"><img class="account" src="account.jpg" alt="account" /></button>
+      </div>
+    </div>
+
+    <div class="body"
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 14px;
+        row-gap: 12px;
+      "
+    >
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      
+    </div>
+  </body>
+</html>
