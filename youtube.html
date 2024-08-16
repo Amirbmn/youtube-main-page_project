@@ -22,13 +22,19 @@ margin-left: 40px;
 } */
 
       .searchbox {
-      
+padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 18px;
         font-size: 20px;
+        align-items: center;
         display: inline-block;
         margin-bottom: 10px;
         margin-left: 0px;
-       
-
+       position: relative;
+border-radius: 25px;
+border-style: solid;
+border-color: rgb(234, 234, 234);
+width: 650px;
       }
       .title {
         margin-top: 0px;
@@ -69,24 +75,46 @@ cursor: pointer;
 
 
 .youtubeLogo {
-  margin-left: 50px;
-  width: 100px;
- 
+  margin-left: 20px;
+  width: 80px;
+ height: 40px;
   
   cursor: pointer;
 }
      
-
-    .microphone {
-  width: 60px;
+.magnifier{
+ object-fit: contain;
+height: 20px;
+  width: 25px;
   display: inline-block;
   vertical-align: middle;
+}
+.magnifier-button{
+
+  border: none;
+  cursor: pointer;
+  background-color: white; 
+  vertical-align:middle;
+  position: absolute;
+left: 830px;
+top: 20px;
+}
+
+
+    .microphone {
+  width: 20px;
+  object-fit: contain;
+ height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3px;
 }
      
 .microphone-button{
   border: none;
   cursor: pointer;
   background-color: white; 
+  align-items: center;
 }
 
 
@@ -101,6 +129,8 @@ cursor: pointer;
       border: none;
       cursor: pointer;
       background-color: white;
+      display: inline-block;
+      vertical-align: top;
      }
       
       .bell {
@@ -108,19 +138,21 @@ cursor: pointer;
         display: inline-block;
        
         vertical-align: middle;
-        margin-left: 25px;
+      
       }
 
 .bell-button{
   border: none;
 background-color: white;
 cursor: pointer;
+display: inline-block;
+vertical-align: top;
 }
 
       .account {
         width: 36px;
         border-radius: 18px;
-        margin-left: 25px;
+      
         vertical-align: middle;
       }
 
@@ -128,30 +160,40 @@ cursor: pointer;
   border: none;
 background-color: white;
 cursor: pointer;
+display: inline-block;
+vertical-align: top;
 }
 
  .first-col {
   display: flex;
   align-items: top;
-   
+   align-self: center;
       }
     
       .middle-col {
         margin-top: 0px;
-       
+       align-items: center;
       }
 
       
-.third-col{
+      .third-col {
+
   justify-self: end;
-  margin-top:0px ;
-    margin-left: 285px
-    
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add this line to add 10px gap between icons */
+  
 }
 .header{
-  margin-top: 15px;
-  margin-bottom: 15px;
+  height: 50px;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 5px;
   position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 background-color: white;
 }
 
@@ -161,10 +203,10 @@ background-color: white;
 
     </style>
   </head>
-  <body>
+  <body style="height: 3000px;">
     <div
       class="header"
-      style="display: grid; grid-template-columns: 1fr 1fr 1fr "
+      style="display: grid; grid-template-columns: 200px 800px 300px "
     >
       <div class="first-col">
         <div>
@@ -175,7 +217,7 @@ background-color: white;
       </div>
       <div class="middle-col">
         <input class="searchbox" type="text" placeholder="search" />
-
+        <button class="magnifier-button"> <img class="magnifier" src="magnifier.png" alt="loading" /></button>
        <button class="microphone-button"> <img class="microphone" src="microphone.png" alt="loading" /></button>
       </div>
       <div class="third-col">
@@ -272,10 +314,283 @@ background-color: white;
       </div>
 
 
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
 
 
 
 
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
+
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+        <p class="channel-name">SuperSimpleDev &checkmark;</p>
+        <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="fish"
+          src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">
+          "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+          شایع و هیدن و مهیار
+        </p>
+        <p class="channel-name">RadioActive Zone &checkmark;</p>
+        <p class="video-info">
+          4.8K views
+          <strong>&middot;</strong>1 hour ago
+        </p>
+      </div>
+
+      <div class="video-container">
+        <img
+          class="man-photo"
+          src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+          alt="loading"
+        />
+        <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+        <p class="channel-name">Kouman &checkmark;</p>
+        <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+      </div>
 
 
 
