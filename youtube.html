@@ -197,9 +197,120 @@ vertical-align: top;
 background-color: white;
 }
 
+
+
+.home{
+width: 30px;
+}
+.home-button{
+border: none;
+background-color: white;
+cursor: pointer;
+display: block;
+margin-bottom: 18px;
+margin-left: 20px;
+}
+
+
+.explore{
+width: 30px;
+}
+.explore-button{
+border: none;
+background-color: white;
+cursor: pointer;
+display: block;
+margin-bottom: 18px;
+margin-left: 14px;
+}
+
+
+
+.originals{
+width: 50px;
+}
+.originals-button{
+border: none;
+background-color: white;
+cursor: pointer;
+display: block;
+margin-bottom: 18px;
+margin-left: 12px;
+
+}
+
+
+
+.subscription{
+width: 30px;
+}
+.subscription-button{
+border: none;
+background-color: white;
+cursor: pointer;
+display: block;
+margin-bottom: 18px;
+margin-left: 3px;
+}
+
+
+.youtubeMusic{
+width: 30px;
+}
+.youtubeMusic-button{
+border: none;
+background-color: white;
+cursor: pointer;
+display: block;
+margin-bottom: 18px;
+margin-left: -10px;
+}
+
+
+
+
+
+
+
+.library{
+width: 30px;
+}
+.library-button{
+border: none;
+background-color: white;
+cursor: pointer;
+display: block;
+margin-bottom: 18px;
+margin-left: 10px;
+}
+
+
+.subname{
+margin-top: 0px;
+  
+}
+
+.toolbar{
+position: fixed;
+background-color: white;
+
+}
+
 .body{
   padding-top: 70px;
+
+
 }
+
+.videos-first-column{
+
+margin-left: 120px;
+
+}
+
+
+
+
 
     </style>
   </head>
@@ -230,11 +341,43 @@ background-color: white;
     <div class="body"
       style="
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 90px 1fr ;
         column-gap: 14px;
         row-gap: 12px;
       "
+
     >
+
+
+    
+    <div class="toolbar" >
+<button class="home-button"><img class="home" src="home.png" alt=""><p class="subname">home</p></button>
+
+<button class="explore-button"><img class="explore" src="explore.png" alt=""><p class="subname">explore</p></button>
+
+<button class="originals-button"><img class="originals" src="originals.png" alt=""><p class="subname">originals</p></button>
+
+<button class="subscription-button"><img class="subscription" src="subscription.png" alt=""><p class="subname">subscription</p></button>
+
+<button class="youtubeMusic-button"><img class="youtubeMusic" src="youtubeMusic.png" alt=""><p class="subname">youtube music</p></button>
+
+<button class="library-button"><img class="library" src="library.png" alt=""><p class="subname">library</p ></button>
+
+
+
+
+
+
+
+    </div>
+<div class="body-video" style="display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 40px;
+row-gap: 10px;">
+
+<div class="videos-first-column"
+>
+
       <div class="video-container">
         <img
           class="man-photo"
@@ -245,6 +388,9 @@ background-color: white;
         <p class="channel-name">SuperSimpleDev &checkmark;</p>
         <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
       </div>
+
+
+
 
       <div class="video-container">
         <img
@@ -591,7 +737,749 @@ background-color: white;
         <p class="channel-name">Kouman &checkmark;</p>
         <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
       </div>
+    </div>
 
+
+
+
+
+
+
+      <div class="videos-second-column">
+
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+  
+  
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+  
+  
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+  
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+          <p class="channel-name">SuperSimpleDev &checkmark;</p>
+          <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="fish"
+            src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">
+            "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+            شایع و هیدن و مهیار
+          </p>
+          <p class="channel-name">RadioActive Zone &checkmark;</p>
+          <p class="video-info">
+            4.8K views
+            <strong>&middot;</strong>1 hour ago
+          </p>
+        </div>
+  
+        <div class="video-container">
+          <img
+            class="man-photo"
+            src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+            alt="loading"
+          />
+          <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+          <p class="channel-name">Kouman &checkmark;</p>
+          <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+        </div>
+      </div>
+
+
+
+
+        <div class="videos-third-column">
+
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+    
+    
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+    
+    
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+    
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="austin-distel-97HfVpyNR1M-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">HTML & CSS Full Course-Beginner to pro</p>
+            <p class="channel-name">SuperSimpleDev &checkmark;</p>
+            <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="fish"
+              src="joshua-rawson-harris-7PMH-V2Lpew-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">
+              "BORO KHOONE" SHAYEA X HIDDEN X MAHYAR - ری اکشن به ترک «برو خونه» از
+              شایع و هیدن و مهیار
+            </p>
+            <p class="channel-name">RadioActive Zone &checkmark;</p>
+            <p class="video-info">
+              4.8K views
+              <strong>&middot;</strong>1 hour ago
+            </p>
+          </div>
+    
+          <div class="video-container">
+            <img
+              class="man-photo"
+              src="joshua-rawson-harris-Bqv85qbh_-A-unsplash.jpg"
+              alt="loading"
+            />
+            <p class="title">ولاگ عجیب‌ترین غذاهای خیابونی ونکوور!</p>
+            <p class="channel-name">Kouman &checkmark;</p>
+            <p class="video-info">606K views <strong>&middot;</strong>3 days ago</p>
+          </div>
+
+
+
+
+
+
+
+    </div>
 
 
 
@@ -599,5 +1487,6 @@ background-color: white;
 
       
     </div>
+  </div>
   </body>
 </html>
