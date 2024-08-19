@@ -5,314 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>youtube.com</title>
 
-    <style>
-      .man-photo,
-      .fish {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 6px;
-        vertical-align: top;
-      }
-      /* .video-container{
-display: inline-block;
-vertical-align: top;
-margin-top: 25px;
-margin-left: 40px;
-} */
-
-      .searchbox {
-padding-top: 10px;
-     padding-bottom: 10px;
-     padding-left: 18px;
-        font-size: 20px;
-        align-items: center;
-        display: inline-block;
-        margin-bottom: 10px;
-        margin-left: 0px;
-       position: relative;
-border-radius: 25px;
-border-style: solid;
-border-color: rgb(234, 234, 234);
-width: 650px;
-      }
-      .title {
-        margin-top: 0px;
-        margin-bottom: 4px;
-        font-family: Arial;
-        width: 300px;
-        font-size: 16px;
-      }
-      .channel-name {
-        color: #606060;
-        font-family: Arial;
-        font-size: 11px;
-        margin-bottom: 1px;
-        margin-top: 4px;
-      }
-      .video-info {
-        color: #606060;
-        font-family: Arial;
-        font-size: 11px;
-        margin-top: 3px;
-      }
-
-
-.menu-symbol {
-  cursor: pointer;
-
-  display: inline-block;
-  width: 30px;
-  margin-right: 10px;
-
-}
-
-.menu-button{
-border: none;
-background-color: white;
-cursor: pointer;
-}
-
-
-.youtubeLogo {
-  margin-left: 20px;
-  width: 80px;
- height: 40px;
-  
-  cursor: pointer;
-}
-     
-.magnifier{
- object-fit: contain;
-height: 20px;
-  width: 25px;
-  display: inline-block;
-  vertical-align: middle;
-}
-.magnifier-button{
-
-  border: none;
-  cursor: pointer;
-  background-color: white; 
-  vertical-align:middle;
-  position: absolute;
-left: 830px;
-top: 20px;
-}
-
-
-    .microphone {
-  width: 20px;
-  object-fit: contain;
- height: 40px;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 3px;
-}
-     
-.microphone-button{
-  border: none;
-  cursor: pointer;
-  background-color: white; 
-  align-items: center;
-}
 
 
 
-
-      .camera {
-        width: 20px;
-        display: inline-block;
-      
-        vertical-align: middle;}
-     .camera-button{
-      border: none;
-      cursor: pointer;
-      background-color: white;
-      display: inline-block;
-      vertical-align: top;
-     }
-      
-      .bell {
-        width: 20px;
-        display: inline-block;
-       
-        vertical-align: middle;
-      
-      }
-
-.bell-button{
-  border: none;
-background-color: white;
-cursor: pointer;
-display: inline-block;
-vertical-align: top;
-}
-
-      .account {
-        width: 36px;
-        border-radius: 18px;
-      
-        vertical-align: middle;
-      }
-
-.account-button{
-  border: none;
-background-color: white;
-cursor: pointer;
-display: inline-block;
-vertical-align: top;
-}
-
- .first-col {
-  display: flex;
-  align-items: top;
-   align-self: center;
-      }
-    
-      .middle-col {
-        margin-top: 0px;
-       align-items: center;
-      }
-
-      
-      .third-col {
-
-  justify-self: end;
-  margin-top: -10px;
-  display: flex;
-  align-items: center;
-  gap: 10px; /* Add this line to add 10px gap between icons */
-  
-}
-.header{
-  height: 50px;
-  width: 100%;
-  padding-top: 7px;
-  padding-bottom: 5px;
-  position:fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-background-color: white;
-}
-
-
-
-.home{
-width: 30px;
-}
-.home-button{
-border: none;
-background-color: white;
-cursor: pointer;
-display: block;
-margin-bottom: 18px;
-margin-left: 20px;
-}
-
-
-.explore{
-width: 30px;
-}
-.explore-button{
-border: none;
-background-color: white;
-cursor: pointer;
-display: block;
-margin-bottom: 18px;
-margin-left: 14px;
-}
-
-
-
-.originals{
-width: 50px;
-}
-.originals-button{
-border: none;
-background-color: white;
-cursor: pointer;
-display: block;
-margin-bottom: 18px;
-margin-left: 12px;
-
-}
-
-
-
-.subscription{
-width: 30px;
-}
-.subscription-button{
-border: none;
-background-color: white;
-cursor: pointer;
-display: block;
-margin-bottom: 18px;
-margin-left: 3px;
-}
-
-
-.youtubeMusic{
-width: 30px;
-}
-.youtubeMusic-button{
-border: none;
-background-color: white;
-cursor: pointer;
-display: block;
-margin-bottom: 18px;
-margin-left: -10px;
-}
-
-
-
-
-
-
-
-.library{
-width: 30px;
-}
-.library-button{
-border: none;
-background-color: white;
-cursor: pointer;
-display: block;
-margin-bottom: 18px;
-margin-left: 10px;
-}
-
-
-.subname{
-margin-top: 0px;
-  
-}
-
-.toolbar{
-position: fixed;
-background-color: white;
-
-}
-
-.body{
-  padding-top: 70px;
-
-
-}
-
-.videos-first-column{
-
-margin-left: 120px;
-
-}
-
-
-
-
-
-    </style>
+  <link rel="stylesheet" href="youtube.css">
   </head>
   <body style="height: 3000px;">
     <div
@@ -329,11 +25,14 @@ margin-left: 120px;
       <div class="middle-col">
         <input class="searchbox" type="text" placeholder="search" />
         <button class="magnifier-button"> <img class="magnifier" src="magnifier.png" alt="loading" /></button>
-       <button class="microphone-button"> <img class="microphone" src="microphone.png" alt="loading" /></button>
+      
+       <button class="microphone-button"> <img class="microphone" src="microphone.png" alt="loading" /><div class="element-name">Search with your voice</div></button>
       </div>
       <div class="third-col">
-        <button class="camera-button"><img class="camera" src="camera.jfif" alt="camera" /></button>
-       <button class="bell-button"> <img class="bell" src="bell.png" alt="bell" /></button>
+        <button class="camera-button"><img class="camera" src="camera.jfif" alt="camera" />  <div class="element-name">Create</div></button>
+   
+       <button class="bell-button"> <img class="bell" src="bell.png" alt="bell" /><div class="element-name">Notifications</div></button>
+       <img class="notif-num" src="3.png" alt="loading">
         <button class="account-button"><img class="account" src="account.jpg" alt="account" /></button>
       </div>
     </div>
@@ -341,8 +40,8 @@ margin-left: 120px;
     <div class="body"
       style="
         display: grid;
-        grid-template-columns: 90px 1fr ;
-        column-gap: 14px;
+        grid-template-columns: 70px 1fr ;
+        column-gap: 4px;
         row-gap: 12px;
       "
 
@@ -351,17 +50,18 @@ margin-left: 120px;
 
     
     <div class="toolbar" >
-<button class="home-button"><img class="home" src="home.png" alt=""><p class="subname">home</p></button>
+      
+<button class="home-button"><img class="home" src="home.png" alt=""><p class="subname">Home</p></button>
 
-<button class="explore-button"><img class="explore" src="explore.png" alt=""><p class="subname">explore</p></button>
+<button class="explore-button"><img class="explore" src="explore.png" alt=""><p class="subname">Explore</p></button>
 
-<button class="originals-button"><img class="originals" src="originals.png" alt=""><p class="subname">originals</p></button>
+<button class="originals-button"><img class="originals" src="originals.png" alt=""><p class="subname">Originals</p></button>
 
-<button class="subscription-button"><img class="subscription" src="subscription.png" alt=""><p class="subname">subscription</p></button>
+<button class="subscription-button"><img class="subscription" src="subscription.png" alt=""><p class="subname">Subscription</p></button>
 
-<button class="youtubeMusic-button"><img class="youtubeMusic" src="youtubeMusic.png" alt=""><p class="subname">youtube music</p></button>
+<button class="youtubeMusic-button"><img class="youtubeMusic" src="youtubeMusic.png" alt=""><p class="subname">YouTube Music</p></button>
 
-<button class="library-button"><img class="library" src="library.png" alt=""><p class="subname">library</p ></button>
+<button class="library-button"><img class="library" src="library.png" alt=""><p class="subname">Library</p ></button>
 
 
 
@@ -384,6 +84,7 @@ row-gap: 10px;">
           src="austin-distel-97HfVpyNR1M-unsplash.jpg"
           alt="loading"
         />
+        <p class="time">14:23</p>
         <p class="title">HTML & CSS Full Course-Beginner to pro</p>
         <p class="channel-name">SuperSimpleDev &checkmark;</p>
         <p class="video-info">11M views <strong>&middot;</strong>2years ago</p>
